@@ -5,6 +5,14 @@ This project is an implementation of a dictionary using a hash table in C. Compa
 
 Descriptions of the functions completed as part of the project have been obtained from the project website. Further details of the project can be found at https://cs50.harvard.edu/x/2022/psets/5/speller/.
 
+### Usage
+
+./speller dictionaries/[dictionary] [text]
+
+Where [dictionary] and [text] are replaced by the dictionry to be used and the word to be found.
+
+### Functions
+
 #### load
 This function loads the dictionary to be used into memory and returns true if successful. Otherwise, it returns false.
 
